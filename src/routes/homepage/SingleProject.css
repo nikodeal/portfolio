@@ -1,0 +1,69 @@
+.single-project-feature {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2022;
+  padding: 2rem;
+  width: 100%;
+}
+.single-project-feature-titles-div {
+  width: 20rem;
+  margin: 3rem;
+  text-align: center;
+}
+.single-project-feature-title {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.single-project-feature-subtitle {
+  width: 20rem;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #575757;
+}
+.single-project-feature-title-button{
+  margin: 10px auto;
+  border-radius: 13px;
+  border: none;
+  padding:20px 30px;
+  /* color: #f35728; */
+  background-color:   #363a3d;
+  color:  #f35728;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.single-project-feature-title-button:focus {
+ outline: 0 
+}
+.single-project-feature-title-button:hover{
+  background-color:   #4f5458;
+}
+.single-project-phone-image {
+  position: relative;
+  height: 30rem;
+  width: 17rem;
+}
+.single-project-gif {
+  margin-top: 26px;
+  position: relative;
+  margin-left: -241px;
+  width: 13rem;
+  height: 25rem;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.single-project-feature-img-gif-div{
+
+}
+@media (max-width: 700px) {
+  .single-project-feature-img-gif-div{
+    margin-left: -2rem;
+  }   
+ 
+     
+}

@@ -1,0 +1,44 @@
+.features-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.features-innerdiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 3rem;
+width: 32rem;
+
+}
+.features-image-div{
+text-align: center;
+margin: 1rem;
+
+width: 100%;
+}
+.features-image{
+  /* border: 2px solid #1e2022; */
+width: 15rem;
+height: 13rem;
+border-radius: 50%;
+}
+.features-title{
+  
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+.features-subtittle{
+  width: 20rem;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: #575757;
+}
