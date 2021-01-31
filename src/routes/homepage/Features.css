@@ -26,6 +26,7 @@ width: 100%;
 width: 15rem;
 height: 13rem;
 border-radius: 50%;
+object-fit: cover;
 }
 .features-title{
   
