@@ -17,7 +17,7 @@ const About = () => {
         data-aos='fade-up'
       />
       <div className="about-div" data-aos='fade-up'>
-        <p className="about-me-title">About me</p>
+        <span className="about-me-title">About me</span>
         <p className="about-me-subtitle">
           As a person I am confident and ambitious, as a family figure I am a
           loving, caring, and supportive husband and father, as a developer I am

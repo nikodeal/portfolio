@@ -17,27 +17,28 @@
 .about-div {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   width: 30rem;
   margin-left: -60px;
 }
 .about-me-title {
-  margin-right: -40px;
+
   color: #f35728;
-  height: 2rem;
-  width: 100%;
+ width: 100%;
+ 
   font-weight: 300;
   font-size: 3.5rem;
   transform: rotate(270deg);
 }
 .about-me-subtitle {
   width: 35rem;
-
-  color: #575757;
+margin-left: -60px;
+  color: #b4b4b4;
   font-family: "Lora", serif;
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
   text-indent: 20px;
 }
 @media (max-width: 700px) {
@@ -45,31 +46,29 @@
     margin: -12px auto 0px;
   }
   .about-me-screens {
-    width: 20rem;
+    width: 18rem;
   }
   .about-div {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    width: 20rem;
-    margin-left: -30px;
+    width: 18rem;
+    margin-left: -60px;
   }
   .about-me-title {
-    margin-right: -50px;
+    margin: -60px -40px 0 0px;
    
-    height: 4rem;
+  
     width: 100%;
     font-weight: 300;
     font-size: 1.7rem;
     transform: rotate(270deg);
   }
   .about-me-subtitle {
-    width: 35rem;
-
-    color: #575757;
-    font-family: "Lora", serif;
-    font-size: 0.8rem;
-    text-indent: 20px;
+    width: 20rem;
+    font-size: 0.71rem;
+    margin-left: 0px;
   }
 }

@@ -24,7 +24,7 @@
   font-family: "Lora", serif;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #575757;
+  color: #b4b4b4;
 }
 .single-project-feature-title-button{
   margin: 10px auto;
@@ -64,6 +64,13 @@
   .single-project-feature-img-gif-div{
     margin-left: -2rem;
   }   
- 
+  .single-project-feature-subtitle {
+    width: 18rem;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #b4b4b4;
+  }
      
 }

@@ -31,7 +31,7 @@
 .project-item-feature-description {
   width: 20rem;
 
-  margin: 40px 0px;
+  margin: 20px 0px 40px;
   font-size: 1.1rem;
   font-weight: 900;
   color: lightgray;
@@ -57,19 +57,39 @@
 }
 @media (max-width: 700px) {
   .project-item-feature {
+    border-radius: 0px 100px 0px 100px;
     width: 20rem;
   }
   .project-item-feature-title {
-    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    font-size: 1rem;
   }
   .project-item-feature-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .project-item-feature-description {
     width: 10rem;
 
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: lightgray;
   }
+  .project-item-feature-img-gif-div {
+    flex: 4;
+    margin-left: auto;
+  }
+  .project-item-phone-image {
+    position: relative;
+    height: 11rem;
+    width: 6.5rem;
+  }
+  .project-item-gif {
+    margin-top: 9px;
+    position: relative;
+    margin-left: -92.999px;
+    width: 5.08rem;
+    height: 9.2rem;
+    border-radius: 0px 0px 5px 5px;
+  }
+
 }
