@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import "./SingleProject.css";
 const SingleProject = () => {
   useEffect(() => {
-    Aos.init({duration: 2000})
+    Aos.init({duration: 1000})
     }, [])
   let history = useHistory();
   return (

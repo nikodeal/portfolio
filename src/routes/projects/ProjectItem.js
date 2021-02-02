@@ -4,7 +4,7 @@ import "aos/dist/aos.css"
 import './ProjectItem.css'
 const ProjectItem = ({title, subtitle,description, gif, flexDir}) => {
   useEffect(() => {
-    Aos.init({duration: 2000})
+    Aos.init({duration: 1000})
     }, [])
   return (
     <div className="project-item-feature" style={{flexDirection: `${flexDir}`}}>

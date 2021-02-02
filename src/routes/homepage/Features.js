@@ -5,7 +5,7 @@ import "./Features.css";
 
 const Features = () => {
   useEffect(() => {
-    Aos.init({duration: 2000})
+    Aos.init({duration: 1000})
     }, [])
   return (
     <div className="features-container">

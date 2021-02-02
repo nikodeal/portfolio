@@ -1,127 +1,53 @@
 .hero-parent-div {
   width: 100%;
-  
   display: flex;
   justify-content: center;
-
+  align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .my-img {
-  margin: 3rem 0px 0px;
   max-width: 100%;
-  animation: moveInLeft 1s ease-in;
+  animation: moveInRight 1s ease-in;
 }
 
 .typewriter {
-  z-index: -1;
-  margin: 6rem 0px 0px -70px;
-  width: 18.5rem;
-  
+  animation: moveInLeft 1s ease-in;
 }
 .type-h1 {
   font-family: "Poppins", sans-serif;
-  margin:  auto;
+  margin: auto;
   color: #52616b;
-  letter-spacing: 1px; /* Adjust as needed */
+
   font-weight: 900;
-  font-size: 7.1rem;
-  animation: moveInRight 1s ease-in;
+  font-size: 7rem;
 }
 .floating-text {
   color: #f35728;
   font-family: "Lora", serif;
-  overflow: hidden;
-  border-right: 0.15em solid #1e2022; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  text-indent: 10px;
+
   font-weight: 900;
-  animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
-  font-size: 1.6rem;
-  /* animation: moveInBottom 1s ease-in; */
+
+  font-size: 1.8rem;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #2d2d2d;
-  }
-}
-@media screen and (min-width: 320px)and (max-width: 374px) {
+@media (max-width: 700px) {
   .my-img {
-    margin: 3rem 0px 0px 20px;
-    max-width: 45%;
+    margin: auto;
   }
-
   .typewriter {
-    margin: 4.7rem 0px 0px -40px;
-    width: 15rem;
+    margin: auto;
+
+    animation: moveInLeft 1s ease-in;
   }
   .type-h1 {
-    font-size: 3.9rem;
-    animation: none;
+    font-size: 3rem;
   }
   .floating-text {
-    margin: 0px 0px 20px 0px;
-    text-indent: 5px;
-    width: 10rem;
-    font-size: .8rem;
+    color: #f35728;
+
+    font-weight: 900;
+
+    font-size: 1rem;
   }
 }
-@media screen and (min-width: 375px)and (max-width: 413px) {
-  .my-img {
-    margin: 3rem 0px 0px 20px;
-    max-width: 45%;
-  }
-
-  .typewriter {
-    margin: 6rem 0px 0px -45px;
-    width: 15rem;
-  }
-  .type-h1 {
-    font-size: 3.9rem;
-    animation: none;
-  }
-  .floating-text {
-    margin: 0px 0px 20px 0px;
-    text-indent: 5px;
-    width: 10rem;
-    font-size: .8rem;
-  }
-} 
-@media screen and (min-width: 414px)and (max-width: 700px) {
-  .my-img {
-    margin: 3rem 0px 0px 20px;
-    max-width: 45%;
-  }
-
-  .typewriter {
-    margin: 6.5rem 0px 0px -45px;
-    width: 15rem;
-  }
-  .type-h1 {
-    font-size: 3.9rem;
-    animation: none;
-  }
-  .floating-text {
-    margin: 0px 0px 20px 0px;
-    text-indent: 5px;
-    width: 10rem;
-    font-size: .8rem;
-  }
-} 
-
